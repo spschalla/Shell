@@ -1,0 +1,3 @@
+This progran creates a shell that is able to support an interactive mode as well as a batch mode. It functions by utilizing the fork(), exec() and wait commands to
+create a new process by forking off of the existing shell. This program supports dynmic reallocation of paths while also allowing users to specify the bin the wish to set.
+It also contains several built in commands, namely exit, cd, and path which do not use the exec() command to execute.
